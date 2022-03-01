@@ -9,7 +9,7 @@ list_b = []
 for num in list_a:
     num_sum = 0
     num_change = num
-    while num_change > 0:
+    while num_change:
         new_num = num_change % 10
         num_sum = num_sum + new_num
         num_change = num_change // 10
@@ -29,7 +29,7 @@ list_d = []
 for num_c in list_c:
     num_sum_c = 0
     num_change_c = num_c
-    while num_change_c > 0:
+    while num_change_c:
         new_num_c = num_change_c % 10
         num_sum_c = num_sum_c + new_num_c
         num_change_c = num_change_c // 10
