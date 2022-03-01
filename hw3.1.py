@@ -7,5 +7,3 @@ for i in range(1, 101):
        print(i, "процента")
    else:
        print(i, "процентов")
-
-print("end")
