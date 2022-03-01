@@ -5,8 +5,6 @@ for i in range(1, 101):
        print(i, "процент")
    elif 2 <= i % 10 <= 4:
        print(i, "процента")
-   elif 5 <= i % 10 <= 10:
-       print(i, "процентов")
    else:
        print(i, "процентов")
 
